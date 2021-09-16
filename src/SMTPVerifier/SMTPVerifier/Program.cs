@@ -19,7 +19,7 @@ namespace SMTPVerifier
                 Credentials = basicAuthInfo
             };
 
-            var sender = new MailAddress("nicolasecage@ragecage.com.com", "Nick Cage");
+            var sender = new MailAddress("nicolasecage@ragecage.com", "Nick Cage");
             var recipient = new MailAddress("johnsmith@email.com", "John Smith");
 
             var email = new MailMessage(sender, recipient)
